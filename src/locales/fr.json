@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "siteName": "Wildora",
+    "homeTitle": "Wildora — Tente de Toit & Équipement Vanlife Premium",
+    "homeDescription": "Découvrez Wildora, la marque premium de tentes de toit et d'équipement vanlife. Liberté, aventure et confort pour explorer le monde autrement.",
+    "productTitle": "Wildora — {name}",
+    "aboutTitle": "Notre Histoire — Wildora",
+    "aboutDescription": "Wildora est née d'une passion pour l'aventure et la liberté. Découvrez l'histoire derrière la marque et notre vision du voyage sans limites."
+  },
+  "nav": {
+    "collection": "Collection",
+    "about": "Notre Histoire",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cart": "Panier",
+    "cartItems": "{count} article",
+    "cartItemsPlural": "{count} articles",
+    "cartEmpty": "Votre panier est vide",
+    "languageLabel": "Langue"
+  },
+  "hero": {
+    "headline": "Le camp premium",
+    "headlineAccent": "pour désert, forêt et expédition.",
+    "subheadline": "Tentes de toit et équipement overland pensés pour les 4x4, les longues pistes et les bivouacs qui demandent du style autant que de la solidité.",
+    "cta": "Voir les tentes de toit",
+    "ctaSecondary": "Parler à un expert",
+    "scroll": "Défiler"
+  },
+  "benefits": {
+    "sectionLabel": "Pourquoi choisir Wildora",
+    "headline": "L'aventure, sans compromis.",
+    "items": [
+      {
+        "icon": "freedom",
+        "title": "Liberté totale",
+        "description": "Dormez où vous voulez, quand vous voulez. Chaque destination devient votre maison."
+      },
+      {
+        "icon": "comfort",
+        "title": "Confort premium",
+        "description": "Matelas haute densité, espace généreux. La qualité hôtelière, au sommet du monde."
+      },
+      {
+        "icon": "setup",
+        "title": "Installation en 60 secondes",
+        "description": "Système d'ouverture ultra-rapide breveté. Prêt à dormir en moins d'une minute."
+      },
+      {
+        "icon": "durability",
+        "title": "Construit pour durer",
+        "description": "Aluminium aérospatial, toile 600D imperméable. Pour des milliers d'aventures."
+      }
+    ]
+  },
+  "featured": {
+    "sectionLabel": "Produit phare",
+    "headline": "La Tente de Toit",
+    "subheadline": "Wildora Explorer Pro",
+    "tagline": "Votre campement de luxe, partout dans le monde.",
+    "viewProduct": "Voir le produit",
+    "addToCart": "Ajouter au panier",
+    "addingToCart": "Ajout en cours...",
+    "outOfStock": "Rupture de stock",
+    "badge": "Bestseller",
+    "from": "À partir de",
+    "reviews": "avis",
+    "specs": [
+      "Taille : 140×240 cm",
+      "Poids : 42 kg",
+      "Charge max : 200 kg",
+      "Ouverture : < 60 sec",
+      "Saisons : 4 saisons"
+    ]
+  },
+  "lifestyle": {
+    "sectionLabel": "Univers Wildora",
+    "headline": "Sahara, dunes, forêt et campements 4x4",
+    "description": "Une direction plus éditoriale, inspirée des expéditions overland: scènes désertiques, toiles premium, silhouettes de 4x4 et campements qui donnent envie de partir loin.",
+    "cta": "Voir la collection",
+    "card1": {
+      "label": "Désert",
+      "text": "4x4 et tente de toit sur les dunes"
+    },
+    "card2": {
+      "label": "Sahara",
+      "text": "Couleurs sable et lumière de fin de journée"
+    },
+    "card3": {
+      "label": "Forêt",
+      "text": "Bivouac dense, calme et ombragé"
+    },
+    "card4": {
+      "label": "Lisière",
+      "text": "Escales fraîches entre pins et reliefs"
+    },
+    "card5": {
+      "label": "Camp premium",
+      "text": "Volume, texture et présence visuelle"
+    }
+  },
+  "proof": {
+    "sectionLabel": "Ils ont choisi Wildora",
+    "headline": "Plus de 2 000 aventuriers satisfaits",
+    "subheadline": "Note moyenne",
+    "totalReviews": "2 147 avis vérifiés",
+    "reviews": [
+      {
+        "author": "Sophie M.",
+        "location": "Lyon, France",
+        "rating": 5,
+        "text": "Incroyable qualité. J'ai traversé l'Islande pendant 3 semaines avec ma Wildora — aucun problème malgré les tempêtes. Le confort est vraiment au niveau d'un hôtel.",
+        "date": "Novembre 2024",
+        "verified": true
+      },
+      {
+        "author": "Thomas B.",
+        "location": "Bordeaux, France",
+        "rating": 5,
+        "text": "J'hésitais entre plusieurs marques. Wildora gagne sur tous les points : finitions, facilité d'installation, confort. Mon meilleur achat de l'année.",
+        "date": "Octobre 2024",
+        "verified": true
+      },
+      {
+        "author": "Camille R.",
+        "location": "Marseille, France",
+        "rating": 5,
+        "text": "3 mois de road trip en van, 8 pays traversés. La tente Wildora a tout supporté. L'ouverture en 60 secondes, c'est vraiment vrai !",
+        "date": "Septembre 2024",
+        "verified": true
+      },
+      {
+        "author": "Antoine L.",
+        "location": "Paris, France",
+        "rating": 5,
+        "text": "Design premium, montage ultra simple, confort exceptionnel. Le service client est aussi au top — ils m'ont rappelé le soir même. Je recommande sans hésiter.",
+        "date": "Décembre 2024",
+        "verified": true
+      }
+    ]
+  },
+  "trust": {
+    "headline": "Achetez en toute confiance",
+    "badges": [
+      {
+        "icon": "shield",
+        "title": "Paiement 100% sécurisé",
+        "description": "SSL, Stripe, Visa, Mastercard, PayPal"
+      },
+      {
+        "icon": "truck",
+        "title": "Livraison offerte",
+        "description": "Livraison gratuite dès 99€, partout en Europe"
+      },
+      {
+        "icon": "refresh",
+        "title": "Retours 30 jours",
+        "description": "Satisfait ou remboursé, sans condition"
+      },
+      {
+        "icon": "star",
+        "title": "Garantie 3 ans",
+        "description": "Couverture complète sur tous nos produits"
+      }
+    ]
+  },
+  "whyWildora": {
+    "sectionLabel": "Notre Philosophie",
+    "headline": "Né de la route,",
+    "headlineAccent": "construit pour durer.",
+    "paragraph1": "Wildora est née d'une frustration. Après des années à utiliser des équipements outdoor médiocres sur les routes d'Europe et d'Afrique, nos fondateurs ont décidé de créer ce qui n'existait pas : un équipement vanlife vraiment premium, accessible.",
+    "paragraph2": "Chaque produit Wildora est conçu avec une obsession pour le détail — des matériaux aux finitions, de la facilité d'installation au confort de nuit. Parce que vous méritez le meilleur, où que vous soyez.",
+    "stat1": { "value": "2 000+", "label": "Clients satisfaits" },
+    "stat2": { "value": "4.9/5", "label": "Note moyenne" },
+    "stat3": { "value": "42 pays", "label": "Explorés avec Wildora" },
+    "cta": "Notre histoire complète"
+  },
+  "urgency": {
+    "headline": "Stock limité — Forte demande",
+    "text": "Nos tentes de toit partent vite. Il ne reste que quelques unités disponibles. Commandez maintenant pour être livré avant le weekend.",
+    "badge": "Populaire",
+    "stockText": "Plus que {count} en stock",
+    "cta": "Commander maintenant",
+    "timer": {
+      "label": "Offre spéciale expire dans",
+      "hours": "h",
+      "minutes": "min",
+      "seconds": "sec"
+    }
+  },
+  "finalCta": {
+    "headline": "Equipez votre prochain bivouac.",
+    "subheadline": "Des tentes de toit pensées pour les pistes longues, les nuits en plein désert et les départs sans compromis.",
+    "cta": "Découvrir la collection",
+    "ctaSecondary": "Contacter Wildora"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "addingToCart": "Ajout en cours...",
+    "buyNow": "Acheter maintenant",
+    "outOfStock": "Rupture de stock",
+    "quantity": "Quantité",
+    "variant": "Couleur",
+    "size": "Taille",
+    "sku": "Référence",
+    "share": "Partager",
+    "wishlist": "Favoris",
+    "from": "À partir de",
+    "compareAt": "Prix habituel",
+    "discount": "Économisez {amount}",
+    "inStock": "En stock",
+    "lowStock": "Plus que {count} en stock",
+    "noStock": "Rupture de stock",
+    "freeShipping": "Livraison gratuite",
+    "tabs": {
+      "description": "Description",
+      "specs": "Caractéristiques",
+      "reviews": "Avis clients",
+      "shipping": "Livraison & Retours"
+    },
+    "shipping": {
+      "title": "Livraison & Retours",
+      "deliveryTitle": "Délais de livraison",
+      "delivery": "Livraison standard : 5-7 jours ouvrés\nLivraison express : 2-3 jours ouvrés\nLivraison offerte dès 99€",
+      "returnsTitle": "Politique de retours",
+      "returns": "Vous disposez de 30 jours pour retourner votre produit sans justification. Le produit doit être dans son emballage d'origine, non utilisé.",
+      "warrantyTitle": "Garantie",
+      "warranty": "Tous nos produits sont couverts par une garantie constructeur de 3 ans contre les défauts de fabrication."
+    },
+    "relatedTitle": "Vous aimerez aussi",
+    "reviewsTitle": "Avis clients",
+    "noReviews": "Soyez le premier à laisser un avis."
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Votre panier est vide",
+    "emptyDescription": "Commencez votre aventure en ajoutant un produit à votre panier.",
+    "continueShopping": "Continuer mes achats",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "shippingFree": "Gratuite",
+    "shippingCalculated": "Calculée à la caisse",
+    "total": "Total",
+    "checkout": "Passer à la caisse",
+    "remove": "Supprimer",
+    "quantity": "Qté",
+    "secureCheckout": "Paiement sécurisé",
+    "freeShippingBanner": "🎉 Livraison gratuite ! Vous avez débloqué la livraison offerte.",
+    "freeShippingProgress": "Plus que {amount} pour la livraison gratuite"
+  },
+  "about": {
+    "hero": {
+      "label": "Notre Histoire",
+      "headline": "Nés pour l'aventure.",
+      "headlineAccent": "Construits pour la liberté.",
+      "subheadline": "Wildora, c'est plus qu'une marque. C'est un état d'esprit — celui de ceux qui choisissent la route plutôt que le confort de l'ordinaire."
+    },
+    "story": {
+      "label": "Les Origines",
+      "headline": "Tout a commencé sur une route déserte en Mongolie",
+      "paragraph1": "C'était l'été 2019. Lucas et Emma, deux ingénieurs français passionnés de voyage, traversaient la Mongolie en van aménagé. Après trois semaines à se battre avec une tente de toit bon marché — zip cassé, bâche qui fuit, montage laborieux — ils ont pris une décision : soit trouver la tente parfaite, soit la créer eux-mêmes.",
+      "paragraph2": "Deux ans de R&D plus tard, après avoir testé des dizaines de prototypes dans les pires conditions — tempêtes sahariennes, nuits à -20°C dans les Alpes, chaleur étouffante du Moyen-Orient — Wildora est née. Un produit qui ne fait aucun compromis.",
+      "paragraph3": "Aujourd'hui, plus de 2 000 aventuriers sur 42 pays font confiance à Wildora pour leurs expéditions. Et nous ne faisons que commencer."
+    },
+    "values": {
+      "label": "Nos Valeurs",
+      "headline": "Ce qui nous anime",
+      "items": [
+        {
+          "title": "Liberté sans frontières",
+          "description": "Nous croyons que la vraie liberté, c'est pouvoir aller où vous voulez, quand vous voulez, sans contrainte."
+        },
+        {
+          "title": "Qualité absolue",
+          "description": "Nous refusons les compromis. Chaque matériau, chaque couture, chaque mécanisme est choisi pour durer des années."
+        },
+        {
+          "title": "Aventure accessible",
+          "description": "Le plein air premium ne devrait pas être réservé à une élite. Wildora rend l'excellence accessible à tous les aventuriers."
+        },
+        {
+          "title": "Impact minimal",
+          "description": "Nous concevons nos produits pour durer. Moins de déchets, plus d'aventures. La nature nous accueille — protégeons-la."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Prêt à rejoindre l'aventure ?",
+      "text": "Découvrez notre collection et commencez à écrire votre propre histoire.",
+      "button": "Voir la collection"
+    }
+  },
+  "footer": {
+    "tagline": "L'aventure commence ici.",
+    "columns": {
+      "explore": {
+        "title": "Explorer",
+        "links": [
+          { "label": "Collection", "href": "/collection" },
+          { "label": "Tentes de toit", "href": "/tentes-de-toit" },
+          { "label": "Accessoires", "href": "/accessoires" },
+          { "label": "Nouveautés", "href": "/nouveautes" }
+        ]
+      },
+      "company": {
+        "title": "La Marque",
+        "links": [
+          { "label": "Journal d'expédition", "href": "/blog" },
+          { "label": "Blog Aventure", "href": "/blog" },
+          { "label": "Ambassadeurs", "href": "/ambassadeurs" },
+          { "label": "Presse", "href": "/presse" }
+        ]
+      },
+      "support": {
+        "title": "Service Client",
+        "links": [
+          { "label": "FAQ", "href": "/faq" },
+          { "label": "Livraison & Retours", "href": "/livraison" },
+          { "label": "Garantie", "href": "/garantie" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      }
+    },
+    "newsletter": {
+      "title": "Rejoignez la communauté",
+      "description": "Inspirations, conseils et offres exclusives — directement dans votre boîte.",
+      "placeholder": "Votre adresse email",
+      "button": "S'inscrire",
+      "success": "Bienvenue dans la communauté Wildora !",
+      "privacy": "Pas de spam. Désabonnement en 1 clic."
+    },
+    "legal": {
+      "copyright": "© {year} Wildora. Tous droits réservés.",
+      "links": [
+        { "label": "Mentions légales", "href": "/mentions-legales" },
+        { "label": "Politique de confidentialité", "href": "/confidentialite" },
+        { "label": "CGV", "href": "/cgv" }
+      ]
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "pinterest": "Pinterest"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Combien de temps prend l'installation de la tente ?",
+        "answer": "L'installation complète prend moins de 60 secondes. Notre système à bras articulés en aluminium s'ouvre d'une seule main. Pas de mats, pas de cordes, pas de stress."
+      },
+      {
+        "question": "Sur quels véhicules la tente est-elle compatible ?",
+        "answer": "Toutes nos tentes sont compatibles avec les barres de toit standard (charge statique min. 75 kg/m²). Compatible avec Toyota, Volkswagen, Ford, Jeep, Mercedes, Land Rover, et la majorité des SUV/4x4."
+      },
+      {
+        "question": "Comment la tente résiste-t-elle à la pluie ?",
+        "answer": "La toile extérieure est en polycoton 600D avec traitement imperméable grade 4 (résistance 3 000mm). La couture est thermo-soudée pour une étanchéité parfaite. Testée dans des conditions extrêmes."
+      },
+      {
+        "question": "Quelle est la politique de retours ?",
+        "answer": "Vous avez 30 jours pour retourner votre produit, sans justification. Contactez notre service client et nous organisons le retour gratuitement. Remboursement sous 5 jours ouvrés."
+      },
+      {
+        "question": "La tente est-elle compatible avec les passages de lavage ?",
+        "answer": "Oui, avec la tente fermée. La hauteur totale (véhicule + tente fermée) doit être inférieure à la hauteur autorisée dans votre station de lavage. Vérifiez les dimensions dans la fiche produit."
+      },
+      {
+        "question": "Quel service après-vente proposez-vous ?",
+        "answer": "Garantie 3 ans pièces et main d'œuvre. Notre équipe est disponible 6j/7 par chat, email et téléphone. Pièces de rechange disponibles à vie pour tous nos modèles."
+      }
+    ]
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "readMore": "En savoir plus",
+    "viewAll": "Voir tout",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "add": "Ajouter",
+    "remove": "Supprimer",
+    "update": "Mettre à jour",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "soldOut": "Épuisé",
+    "new": "Nouveau",
+    "sale": "Solde",
+    "featured": "Sélection",
+    "popular": "Populaire"
+  }
+}

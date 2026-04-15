@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "siteName": "Wildora",
+    "homeTitle": "Wildora — Premium Rooftop Tents & Vanlife Equipment",
+    "homeDescription": "Discover Wildora, the premium rooftop tent and vanlife gear brand. Freedom, adventure and comfort to explore the world differently.",
+    "productTitle": "Wildora — {name}",
+    "aboutTitle": "Our Story — Wildora",
+    "aboutDescription": "Wildora was born from a passion for adventure and freedom. Discover the story behind the brand and our vision of boundless travel."
+  },
+  "nav": {
+    "collection": "Collection",
+    "about": "Our Story",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cart": "Cart",
+    "cartItems": "{count} item",
+    "cartItemsPlural": "{count} items",
+    "cartEmpty": "Your cart is empty",
+    "languageLabel": "Language"
+  },
+  "hero": {
+    "headline": "Premium camp",
+    "headlineAccent": "for desert, forest and expedition travel.",
+    "subheadline": "Rooftop tents and overland gear shaped for 4x4 travel, long crossings, and camps that need as much presence as durability.",
+    "cta": "Explore rooftop tents",
+    "ctaSecondary": "Talk to an expert",
+    "scroll": "Scroll"
+  },
+  "benefits": {
+    "sectionLabel": "Why choose Wildora",
+    "headline": "Adventure, without compromise.",
+    "items": [
+      {
+        "icon": "freedom",
+        "title": "Total freedom",
+        "description": "Sleep wherever you want, whenever you want. Every destination becomes your home."
+      },
+      {
+        "icon": "comfort",
+        "title": "Premium comfort",
+        "description": "High-density mattress, generous space. Hotel quality, at the top of the world."
+      },
+      {
+        "icon": "setup",
+        "title": "60-second setup",
+        "description": "Patented ultra-fast opening system. Ready to sleep in under a minute."
+      },
+      {
+        "icon": "durability",
+        "title": "Built to last",
+        "description": "Aerospace-grade aluminum, 600D waterproof canvas. For thousands of adventures."
+      }
+    ]
+  },
+  "featured": {
+    "sectionLabel": "Hero product",
+    "headline": "The Rooftop Tent",
+    "subheadline": "Wildora Explorer Pro",
+    "tagline": "Your luxury campsite, anywhere in the world.",
+    "viewProduct": "View product",
+    "addToCart": "Add to cart",
+    "addingToCart": "Adding...",
+    "outOfStock": "Out of stock",
+    "badge": "Bestseller",
+    "from": "From",
+    "reviews": "reviews",
+    "specs": [
+      "Size: 140×240 cm",
+      "Weight: 42 kg",
+      "Max load: 200 kg",
+      "Opening: < 60 sec",
+      "Seasons: 4-season"
+    ]
+  },
+  "lifestyle": {
+    "sectionLabel": "The Wildora World",
+    "headline": "Sahara, dunes, forest and 4x4 camps",
+    "description": "A more editorial overland direction: desert scenes, premium canvas, 4x4 silhouettes and stronger image density across the page.",
+    "cta": "View collection",
+    "card1": {
+      "label": "Desert",
+      "text": "4x4 rooftop camp on the dunes"
+    },
+    "card2": {
+      "label": "Sahara",
+      "text": "Sand tones and late-day light"
+    },
+    "card3": {
+      "label": "Forest",
+      "text": "Dense and quiet woodland bivouac"
+    },
+    "card4": {
+      "label": "Treeline",
+      "text": "Cool stops between pines and ridges"
+    },
+    "card5": {
+      "label": "Premium camp",
+      "text": "Volume, texture and overland presence"
+    }
+  },
+  "proof": {
+    "sectionLabel": "They chose Wildora",
+    "headline": "Over 2,000 satisfied adventurers",
+    "subheadline": "Average rating",
+    "totalReviews": "2,147 verified reviews",
+    "reviews": [
+      {
+        "author": "Sophie M.",
+        "location": "Lyon, France",
+        "rating": 5,
+        "text": "Incredible quality. I crossed Iceland for 3 weeks with my Wildora — no problems despite the storms. The comfort is truly hotel-level.",
+        "date": "November 2024",
+        "verified": true
+      },
+      {
+        "author": "Thomas B.",
+        "location": "Bordeaux, France",
+        "rating": 5,
+        "text": "I was hesitating between several brands. Wildora wins on all points: finish, ease of setup, comfort. Best purchase of the year.",
+        "date": "October 2024",
+        "verified": true
+      },
+      {
+        "author": "Camille R.",
+        "location": "Marseille, France",
+        "rating": 5,
+        "text": "3 months road-tripping in a van, 8 countries crossed. The Wildora tent handled everything. The 60-second opening is really true!",
+        "date": "September 2024",
+        "verified": true
+      },
+      {
+        "author": "Antoine L.",
+        "location": "Paris, France",
+        "rating": 5,
+        "text": "Premium design, ultra-simple assembly, exceptional comfort. Customer service is also top-notch — they called me back the same evening.",
+        "date": "December 2024",
+        "verified": true
+      }
+    ]
+  },
+  "trust": {
+    "headline": "Buy with confidence",
+    "badges": [
+      {
+        "icon": "shield",
+        "title": "100% Secure Payment",
+        "description": "SSL, Stripe, Visa, Mastercard, PayPal"
+      },
+      {
+        "icon": "truck",
+        "title": "Free Shipping",
+        "description": "Free delivery from €99, across Europe"
+      },
+      {
+        "icon": "refresh",
+        "title": "30-Day Returns",
+        "description": "Satisfied or refunded, no questions asked"
+      },
+      {
+        "icon": "star",
+        "title": "3-Year Warranty",
+        "description": "Full coverage on all our products"
+      }
+    ]
+  },
+  "whyWildora": {
+    "sectionLabel": "Our Philosophy",
+    "headline": "Born on the road,",
+    "headlineAccent": "built to last.",
+    "paragraph1": "Wildora was born from frustration. After years of using mediocre outdoor gear on roads across Europe and Africa, our founders decided to create what didn't exist: truly premium vanlife equipment, accessible to all.",
+    "paragraph2": "Every Wildora product is designed with an obsession for detail — from materials to finish, from ease of setup to night comfort. Because you deserve the best, wherever you are.",
+    "stat1": { "value": "2,000+", "label": "Satisfied customers" },
+    "stat2": { "value": "4.9/5", "label": "Average rating" },
+    "stat3": { "value": "42 countries", "label": "Explored with Wildora" },
+    "cta": "Our full story"
+  },
+  "urgency": {
+    "headline": "Limited Stock — High Demand",
+    "text": "Our rooftop tents go fast. Only a few units left. Order now to receive your delivery before the weekend.",
+    "badge": "Popular",
+    "stockText": "Only {count} left in stock",
+    "cta": "Order now",
+    "timer": {
+      "label": "Special offer expires in",
+      "hours": "h",
+      "minutes": "min",
+      "seconds": "sec"
+    }
+  },
+  "finalCta": {
+    "headline": "Equip your next bivouac.",
+    "subheadline": "Rooftop tents made for long tracks, desert nights and clean overland setups.",
+    "cta": "Discover the collection",
+    "ctaSecondary": "Contact Wildora"
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "addingToCart": "Adding...",
+    "buyNow": "Buy now",
+    "outOfStock": "Out of stock",
+    "quantity": "Quantity",
+    "variant": "Color",
+    "size": "Size",
+    "sku": "SKU",
+    "share": "Share",
+    "wishlist": "Wishlist",
+    "from": "From",
+    "compareAt": "Regular price",
+    "discount": "Save {amount}",
+    "inStock": "In stock",
+    "lowStock": "Only {count} left in stock",
+    "noStock": "Out of stock",
+    "freeShipping": "Free shipping",
+    "tabs": {
+      "description": "Description",
+      "specs": "Specifications",
+      "reviews": "Customer Reviews",
+      "shipping": "Shipping & Returns"
+    },
+    "shipping": {
+      "title": "Shipping & Returns",
+      "deliveryTitle": "Delivery Times",
+      "delivery": "Standard delivery: 5-7 business days\nExpress delivery: 2-3 business days\nFree shipping from €99",
+      "returnsTitle": "Return Policy",
+      "returns": "You have 30 days to return your product without explanation. The product must be in its original packaging, unused.",
+      "warrantyTitle": "Warranty",
+      "warranty": "All our products are covered by a manufacturer's warranty of 3 years against manufacturing defects."
+    },
+    "relatedTitle": "You might also like",
+    "reviewsTitle": "Customer Reviews",
+    "noReviews": "Be the first to leave a review."
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty",
+    "emptyDescription": "Start your adventure by adding a product to your cart.",
+    "continueShopping": "Continue shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "shippingFree": "Free",
+    "shippingCalculated": "Calculated at checkout",
+    "total": "Total",
+    "checkout": "Proceed to checkout",
+    "remove": "Remove",
+    "quantity": "Qty",
+    "secureCheckout": "Secure checkout",
+    "freeShippingBanner": "🎉 Free shipping! You unlocked free delivery.",
+    "freeShippingProgress": "{amount} more for free shipping"
+  },
+  "about": {
+    "hero": {
+      "label": "Our Story",
+      "headline": "Born for adventure.",
+      "headlineAccent": "Built for freedom.",
+      "subheadline": "Wildora is more than a brand. It's a mindset — the mindset of those who choose the road over the comfort of the ordinary."
+    },
+    "story": {
+      "label": "The Origins",
+      "headline": "It all started on a deserted road in Mongolia",
+      "paragraph1": "It was summer 2019. Lucas and Emma, two French engineers passionate about travel, were crossing Mongolia in a converted van. After three weeks battling a cheap rooftop tent — broken zip, leaking tarp, laborious setup — they made a decision: either find the perfect tent, or create it themselves.",
+      "paragraph2": "Two years of R&D later, after testing dozens of prototypes in the worst conditions — Saharan storms, nights at -20°C in the Alps, sweltering Middle Eastern heat — Wildora was born. A product that makes no compromises.",
+      "paragraph3": "Today, over 2,000 adventurers across 42 countries trust Wildora for their expeditions. And we're just getting started."
+    },
+    "values": {
+      "label": "Our Values",
+      "headline": "What drives us",
+      "items": [
+        {
+          "title": "Boundless freedom",
+          "description": "We believe that true freedom is being able to go wherever you want, whenever you want, without constraint."
+        },
+        {
+          "title": "Absolute quality",
+          "description": "We refuse compromises. Every material, every stitch, every mechanism is chosen to last for years."
+        },
+        {
+          "title": "Accessible adventure",
+          "description": "Premium outdoor gear shouldn't be reserved for an elite. Wildora makes excellence accessible to all adventurers."
+        },
+        {
+          "title": "Minimal impact",
+          "description": "We design our products to last. Less waste, more adventures. Nature welcomes us — let's protect it."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Ready to join the adventure?",
+      "text": "Discover our collection and start writing your own story.",
+      "button": "View collection"
+    }
+  },
+  "footer": {
+    "tagline": "Adventure starts here.",
+    "columns": {
+      "explore": {
+        "title": "Explore",
+        "links": [
+          { "label": "Collection", "href": "/collection" },
+          { "label": "Rooftop Tents", "href": "/rooftop-tents" },
+          { "label": "Accessories", "href": "/accessories" },
+          { "label": "New Arrivals", "href": "/new-arrivals" }
+        ]
+      },
+      "company": {
+        "title": "The Brand",
+        "links": [
+          { "label": "Expedition Journal", "href": "/blog" },
+          { "label": "Adventure Blog", "href": "/blog" },
+          { "label": "Ambassadors", "href": "/ambassadors" },
+          { "label": "Press", "href": "/press" }
+        ]
+      },
+      "support": {
+        "title": "Customer Service",
+        "links": [
+          { "label": "FAQ", "href": "/faq" },
+          { "label": "Shipping & Returns", "href": "/shipping" },
+          { "label": "Warranty", "href": "/warranty" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      }
+    },
+    "newsletter": {
+      "title": "Join the community",
+      "description": "Inspiration, tips, and exclusive offers — straight to your inbox.",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "success": "Welcome to the Wildora community!",
+      "privacy": "No spam. Unsubscribe in 1 click."
+    },
+    "legal": {
+      "copyright": "© {year} Wildora. All rights reserved.",
+      "links": [
+        { "label": "Legal Notice", "href": "/legal" },
+        { "label": "Privacy Policy", "href": "/privacy" },
+        { "label": "Terms & Conditions", "href": "/terms" }
+      ]
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "pinterest": "Pinterest"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How long does tent installation take?",
+        "answer": "Full installation takes less than 60 seconds. Our patented aluminum articulated arm system opens with one hand. No poles, no ropes, no stress."
+      },
+      {
+        "question": "Which vehicles is the tent compatible with?",
+        "answer": "All our tents are compatible with standard roof bars (minimum static load 75 kg/m²). Compatible with Toyota, Volkswagen, Ford, Jeep, Mercedes, Land Rover, and most SUVs/4x4s."
+      },
+      {
+        "question": "How does the tent handle rain?",
+        "answer": "The outer canvas is 600D polycotton with grade 4 waterproof treatment (3,000mm resistance). Seams are heat-sealed for perfect waterproofing. Tested in extreme conditions."
+      },
+      {
+        "question": "What is the return policy?",
+        "answer": "You have 30 days to return your product, no questions asked. Contact our customer service and we'll organize the return for free. Refund within 5 business days."
+      },
+      {
+        "question": "Is the tent compatible with car washes?",
+        "answer": "Yes, with the tent closed. The total height (vehicle + closed tent) must be less than the height allowed in your car wash. Check the dimensions in the product sheet."
+      },
+      {
+        "question": "What after-sales service do you offer?",
+        "answer": "3-year parts and labor warranty. Our team is available 6 days/7 by chat, email and phone. Spare parts available for life for all our models."
+      }
+    ]
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "close": "Close",
+    "open": "Open",
+    "add": "Add",
+    "remove": "Remove",
+    "update": "Update",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "soldOut": "Sold out",
+    "new": "New",
+    "sale": "Sale",
+    "featured": "Featured",
+    "popular": "Popular"
+  }
+}
