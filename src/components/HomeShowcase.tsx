@@ -48,12 +48,12 @@ export default function HomeShowcase({ locale }: HomeShowcaseProps) {
     heroCta: isFr ? 'Voir la collection' : 'View collection',
     heroAltCta: isFr ? 'En savoir plus' : 'Learn more',
     collectionTitle: isFr ? 'NOS TENTES DE TOIT' : 'OUR ROOFTOP TENTS',
-    collectionSub: isFr ? 'Ingénierie italienne, confort absolu.' : 'Italian engineering, absolute comfort.',
+    collectionSub: isFr ? 'Ingénierie suisse, confort absolu.' : 'Swiss engineering, absolute comfort.',
     collectionCta: isFr ? 'Voir toute la collection' : 'Browse all tents',
     featureTitle: isFr ? 'CONÇU POUR L\'EXTRÊME' : 'BUILT FOR THE EXTREME',
     featureText: isFr
-      ? 'Chaque tente Wildora est fabriquée en Italie avec des matériaux premium. Coque rigide, isolation thermique, et montage en moins de 60 secondes.'
-      : 'Every Wildora tent is manufactured in Italy with premium materials. Hard shell, thermal insulation, and setup in under 60 seconds.',
+      ? 'Chaque tente Wildora est conçue en Suisse avec des matériaux premium. Coque rigide, isolation thermique, et montage en moins de 60 secondes.'
+      : 'Every Wildora tent is engineered in Switzerland with premium materials. Hard shell, thermal insulation, and setup in under 60 seconds.',
     featureCta: isFr ? 'Découvrir la technologie' : 'Discover the technology',
     strip: isFr ? 'COQUE RIGIDE · TOILE PREMIUM · AUCUN COMPROMIS · SINCE 1958' : 'HARD SHELL · PREMIUM FABRIC · NO COMPROMISE · SINCE 1958',
     storyTitle: isFr ? 'UNE HISTOIRE DEPUIS 1958' : 'A STORY SINCE 1958',

@@ -29,7 +29,7 @@ export default function Header({ locale }: HeaderProps) {
 
   const navLinks = [
     { label: 'SHOP', href: `/${locale}/produits` },
-    { label: locale === 'fr' ? 'NOTRE HISTOIRE' : 'OUR STORY', href: `/${locale}/a-propos` },
+    { label: 'SINCE 1998', href: `/${locale}/a-propos` },
     { label: 'EXPERIENCE', href: `/${locale}/blog` },
     { label: 'CATALOGUE', href: `/${locale}/produits` },
   ];

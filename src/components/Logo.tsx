@@ -12,9 +12,9 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
   const color = variant === 'light' ? '#ffffff' : '#0a0a0a';
 
   const sizes = {
-    sm: { width: 120, height: 28 },
-    md: { width: 148, height: 34 },
-    lg: { width: 180, height: 42 },
+    sm: { width: 72, height: 36 },
+    md: { width: 88, height: 44 },
+    lg: { width: 108, height: 54 },
   };
 
   const { width, height } = sizes[size];
@@ -24,31 +24,45 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
       <svg
         width={width}
         height={height}
-        viewBox="0 0 148 34"
+        viewBox="0 0 88 44"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* W mark — two mountain peaks */}
+        {/* W mark — mountain peak left */}
         <polyline
-          points="2,6 8,26 14,12 20,26 26,6"
+          points="0,32 6,10 12,26 18,10 24,32"
           stroke={color}
-          strokeWidth="2.8"
+          strokeWidth="2.4"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
         />
-        {/* Wordmark */}
+        {/* Vertical separator */}
+        <line x1="30" y1="8" x2="30" y2="36" stroke={color} strokeWidth="1" opacity="0.35" />
+        {/* WILD top line */}
         <text
-          x="34"
-          y="24"
+          x="36"
+          y="22"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="22"
+          fontSize="14"
           fontWeight="700"
-          letterSpacing="0.28em"
+          letterSpacing="0.3em"
           fill={color}
         >
-          WILDORA
+          WILD
+        </text>
+        {/* ORA bottom line */}
+        <text
+          x="36"
+          y="38"
+          fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
+          fontSize="14"
+          fontWeight="700"
+          letterSpacing="0.3em"
+          fill={color}
+        >
+          ORA
         </text>
       </svg>
     </Link>
