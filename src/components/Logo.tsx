@@ -9,50 +9,46 @@ interface LogoProps {
 }
 
 export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProps) {
-  const textColor = variant === 'light' ? '#ffffff' : '#0a0a0a';
-  const accentColor = variant === 'light' ? '#ffffff' : '#0a0a0a';
+  const color = variant === 'light' ? '#ffffff' : '#0a0a0a';
 
   const sizes = {
-    sm: { height: 30, fontSize: 16, letterSize: 11 },
-    md: { height: 42, fontSize: 18, letterSize: 12 },
-    lg: { height: 54, fontSize: 22, letterSize: 15 },
+    sm: { width: 120, height: 28 },
+    md: { width: 148, height: 34 },
+    lg: { width: 180, height: 42 },
   };
 
-  const { height, fontSize, letterSize } = sizes[size];
+  const { width, height } = sizes[size];
 
   return (
     <Link href={`/${locale}`} aria-label="Wildora — Accueil">
       <svg
-        width={height * 4.9}
+        width={width}
         height={height}
-        viewBox="0 0 206 48"
+        viewBox="0 0 148 34"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        <circle cx="22" cy="24" r="18" stroke={accentColor} strokeWidth="4" />
-        <path d="M14 25.5l8-6 8 6v6H14v-6z" fill={accentColor} />
+        {/* W mark — two mountain peaks */}
+        <polyline
+          points="2,6 8,26 14,12 20,26 26,6"
+          stroke={color}
+          strokeWidth="2.8"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        {/* Wordmark */}
         <text
-          x="50"
-          y="19"
-          fontFamily="var(--font-playfair), 'Oswald', sans-serif"
-          fontSize={fontSize}
-          fontWeight="600"
-          letterSpacing="0.22em"
-          fill={textColor}
+          x="34"
+          y="24"
+          fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
+          fontSize="22"
+          fontWeight="700"
+          letterSpacing="0.28em"
+          fill={color}
         >
-          WILD
-        </text>
-        <text
-          x="50"
-          y="39"
-          fontFamily="var(--font-playfair), 'Oswald', sans-serif"
-          fontSize={fontSize}
-          fontWeight="600"
-          letterSpacing="0.22em"
-          fill={textColor}
-        >
-          ORA
+          WILDORA
         </text>
       </svg>
     </Link>

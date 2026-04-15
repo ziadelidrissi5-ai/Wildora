@@ -28,10 +28,10 @@ export default function Header({ locale }: HeaderProps) {
   }, [menuOpen]);
 
   const navLinks = [
-    { label: locale === 'fr' ? 'SHOP' : 'SHOP', href: `/${locale}/produits` },
-    { label: 'SINCE 1958', href: `/${locale}` },
-    { label: locale === 'fr' ? 'EXPERIENCE' : 'EXPERIENCE', href: `/${locale}/blog` },
-    { label: locale === 'fr' ? 'CATALOGUE' : 'CATALOGUE', href: `/${locale}/produits` },
+    { label: 'SHOP', href: `/${locale}/produits` },
+    { label: locale === 'fr' ? 'NOTRE HISTOIRE' : 'OUR STORY', href: `/${locale}/a-propos` },
+    { label: 'EXPERIENCE', href: `/${locale}/blog` },
+    { label: 'CATALOGUE', href: `/${locale}/produits` },
   ];
 
   return (

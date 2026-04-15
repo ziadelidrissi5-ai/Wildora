@@ -133,7 +133,7 @@ export default function HomeShowcase({ locale }: HomeShowcaseProps) {
           <p className="wld-label">{copy.featureTitle}</p>
           <p className="wld-feature__text">{copy.featureText}</p>
           <div className="wld-feature__badges">
-            <span className="wld-badge">Italian Made</span>
+            <span className="wld-badge">Swiss Engineering</span>
             <span className="wld-badge">Hard Shell</span>
             <span className="wld-badge">60s Setup</span>
             <span className="wld-badge">All Season</span>
