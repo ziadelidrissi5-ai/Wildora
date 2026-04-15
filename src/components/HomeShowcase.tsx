@@ -144,16 +144,6 @@ export default function HomeShowcase({ locale }: HomeShowcaseProps) {
         </div>
       </section>
 
-      {/* ── Brand story ─────────────────────────────────────── */}
-      <section className="wld-story">
-        <div className="wld-story__inner">
-          <p className="wld-label wld-label--light">{copy.storyTitle}</p>
-          <p className="wld-story__text">{copy.storyText}</p>
-          <Link href={`/${locale}/a-propos`} className="wld-btn wld-btn--outline wld-btn--sm">
-            {copy.storyCta}
-          </Link>
-        </div>
-      </section>
 
     </div>
   );

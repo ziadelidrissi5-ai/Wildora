@@ -738,6 +738,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.wildora-header__since {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: default;
+  user-select: none;
+}
+
 .wildora-header__lang {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.68rem;

@@ -29,7 +29,6 @@ export default function Header({ locale }: HeaderProps) {
 
   const navLinks = [
     { label: 'SHOP', href: `/${locale}/produits` },
-    { label: 'SINCE 1998', href: `/${locale}/a-propos` },
     { label: 'EXPERIENCE', href: `/${locale}/blog` },
     { label: 'CATALOGUE', href: `/${locale}/produits` },
   ];
@@ -39,11 +38,12 @@ export default function Header({ locale }: HeaderProps) {
       <header className="wildora-header">
         <div className="wildora-header__inner">
           <nav className="wildora-header__nav" aria-label="Main navigation">
-            {navLinks.slice(0, 2).map((link) => (
+            {navLinks.slice(0, 1).map((link) => (
               <Link key={link.label} href={link.href} className="wildora-header__link">
                 {link.label}
               </Link>
             ))}
+            <span className="wildora-header__since">SINCE 1998</span>
           </nav>
 
           <Logo locale={locale} variant="light" size="md" />
