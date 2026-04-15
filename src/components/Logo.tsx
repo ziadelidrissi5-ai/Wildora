@@ -29,13 +29,14 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* Circle */}
-        <circle cx="24" cy="24" r="22" fill={color} />
-        {/* W inside circle */}
+        {/* Circle — noir */}
+        <circle cx="24" cy="24" r="22" fill="#0a0a0a" />
+        <circle cx="24" cy="24" r="22" stroke={color} strokeWidth="1.5" fill="none" opacity="0.25" />
+        {/* W long et étroit */}
         <polyline
-          points="8,14 13,34 24,20 35,34 40,14"
-          stroke={variant === 'light' ? '#080808' : '#ffffff'}
-          strokeWidth="4"
+          points="13,10 17,38 24,22 31,38 35,10"
+          stroke="#ffffff"
+          strokeWidth="3.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
