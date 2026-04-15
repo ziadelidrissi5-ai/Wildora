@@ -12,9 +12,9 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
   const color = variant === 'light' ? '#ffffff' : '#0a0a0a';
 
   const sizes = {
-    sm: { width: 100, height: 32 },
-    md: { width: 124, height: 40 },
-    lg: { width: 152, height: 48 },
+    sm: { width: 140, height: 38 },
+    md: { width: 178, height: 48 },
+    lg: { width: 216, height: 58 },
   };
 
   const { width, height } = sizes[size];
@@ -24,44 +24,44 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
       <svg
         width={width}
         height={height}
-        viewBox="0 0 124 40"
+        viewBox="0 0 178 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* Tent icon — triangle over a ground line */}
+        {/* Tent icon */}
         <polygon
-          points="18,6 32,30 4,30"
+          points="22,5 40,37 4,37"
           stroke={color}
-          strokeWidth="2"
+          strokeWidth="2.2"
           strokeLinejoin="round"
           fill="none"
         />
-        {/* Door slit at base */}
-        <line x1="15" y1="30" x2="21" y2="20" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+        {/* Door slit */}
+        <line x1="18" y1="37" x2="26" y2="24" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
         {/* Ground line */}
-        <line x1="0" y1="33" x2="36" y2="33" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.4" />
+        <line x1="0" y1="41" x2="44" y2="41" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.35" />
 
         {/* WILD */}
         <text
-          x="44"
-          y="21"
+          x="54"
+          y="25"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="13"
+          fontSize="17"
           fontWeight="700"
-          letterSpacing="0.32em"
+          letterSpacing="0.38em"
           fill={color}
         >
           WILD
         </text>
         {/* ORA */}
         <text
-          x="44"
-          y="35"
+          x="54"
+          y="43"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="13"
+          fontSize="17"
           fontWeight="700"
-          letterSpacing="0.32em"
+          letterSpacing="0.38em"
           fill={color}
         >
           ORA
