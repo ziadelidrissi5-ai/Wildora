@@ -12,9 +12,9 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
   const color = variant === 'light' ? '#ffffff' : '#0a0a0a';
 
   const sizes = {
-    sm: { width: 72, height: 36 },
-    md: { width: 88, height: 44 },
-    lg: { width: 108, height: 54 },
+    sm: { width: 100, height: 32 },
+    md: { width: 124, height: 40 },
+    lg: { width: 152, height: 48 },
   };
 
   const { width, height } = sizes[size];
@@ -24,42 +24,44 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
       <svg
         width={width}
         height={height}
-        viewBox="0 0 88 44"
+        viewBox="0 0 124 40"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* W mark — mountain peak left */}
-        <polyline
-          points="0,32 6,10 12,26 18,10 24,32"
+        {/* Tent icon — triangle over a ground line */}
+        <polygon
+          points="18,6 32,30 4,30"
           stroke={color}
-          strokeWidth="2.4"
-          strokeLinecap="round"
+          strokeWidth="2"
           strokeLinejoin="round"
           fill="none"
         />
-        {/* Vertical separator */}
-        <line x1="30" y1="8" x2="30" y2="36" stroke={color} strokeWidth="1" opacity="0.35" />
-        {/* WILD top line */}
+        {/* Door slit at base */}
+        <line x1="15" y1="30" x2="21" y2="20" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+        {/* Ground line */}
+        <line x1="0" y1="33" x2="36" y2="33" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.4" />
+
+        {/* WILD */}
         <text
-          x="36"
-          y="22"
+          x="44"
+          y="21"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="14"
+          fontSize="13"
           fontWeight="700"
-          letterSpacing="0.3em"
+          letterSpacing="0.32em"
           fill={color}
         >
           WILD
         </text>
-        {/* ORA bottom line */}
+        {/* ORA */}
         <text
-          x="36"
-          y="38"
+          x="44"
+          y="35"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="14"
+          fontSize="13"
           fontWeight="700"
-          letterSpacing="0.3em"
+          letterSpacing="0.32em"
           fill={color}
         >
           ORA
