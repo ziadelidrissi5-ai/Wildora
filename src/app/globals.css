@@ -1080,15 +1080,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .autohome-footer p,
-.autohome-footer a,
+.autohome-footer__link,
 .autohome-footer__phone {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0.9rem;
+  display: block;
 }
 
-.autohome-footer button,
-.autohome-footer__contact,
-.autohome-footer__phone {
+.autohome-footer__link:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.autohome-footer__btn {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1100,11 +1105,49 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-top: 1.5rem;
+  transition: background 200ms ease;
+}
+
+.autohome-footer__btn:hover {
+  background: #d4d4d4;
 }
 
 .autohome-footer__contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
   background: #3a3a3a;
   color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  transition: background 200ms ease;
+}
+
+.autohome-footer__contact:hover {
+  background: #4a4a4a;
+}
+
+.autohome-footer__phone {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  background: #bdbdbd;
+  color: #111;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  transition: background 200ms ease;
+}
+
+.autohome-footer__phone:hover {
+  background: #d4d4d4;
 }
 
 .autohome-footer__stamp {
