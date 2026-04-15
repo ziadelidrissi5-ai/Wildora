@@ -29,27 +29,25 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* Tent icon */}
+        {/* Tent icon — filled solid */}
         <polygon
-          points="22,5 40,37 4,37"
-          stroke={color}
-          strokeWidth="2.2"
-          strokeLinejoin="round"
-          fill="none"
+          points="22,4 42,38 2,38"
+          fill={color}
         />
-        {/* Door slit */}
-        <line x1="18" y1="37" x2="26" y2="24" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
-        {/* Ground line */}
-        <line x1="0" y1="41" x2="44" y2="41" stroke={color} strokeWidth="1.2" strokeLinecap="round" opacity="0.35" />
+        {/* Door cutout */}
+        <polygon
+          points="22,38 16,26 28,26"
+          fill={variant === 'light' ? '#080808' : '#ffffff'}
+        />
 
         {/* WILD */}
         <text
           x="54"
           y="25"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="17"
-          fontWeight="700"
-          letterSpacing="0.38em"
+          fontSize="18"
+          fontWeight="900"
+          letterSpacing="0.34em"
           fill={color}
         >
           WILD
@@ -57,11 +55,11 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
         {/* ORA */}
         <text
           x="54"
-          y="43"
+          y="44"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
-          fontSize="17"
-          fontWeight="700"
-          letterSpacing="0.38em"
+          fontSize="18"
+          fontWeight="900"
+          letterSpacing="0.34em"
           fill={color}
         >
           ORA
