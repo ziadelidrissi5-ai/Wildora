@@ -29,20 +29,21 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
       >
-        {/* Tent icon — filled solid */}
-        <polygon
-          points="22,4 42,38 2,38"
-          fill={color}
-        />
-        {/* Door cutout */}
-        <polygon
-          points="22,38 16,26 28,26"
-          fill={variant === 'light' ? '#080808' : '#ffffff'}
+        {/* Circle */}
+        <circle cx="24" cy="24" r="22" fill={color} />
+        {/* W inside circle */}
+        <polyline
+          points="8,14 13,34 24,20 35,34 40,14"
+          stroke={variant === 'light' ? '#080808' : '#ffffff'}
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
         />
 
         {/* WILD */}
         <text
-          x="54"
+          x="56"
           y="25"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
           fontSize="18"
@@ -54,7 +55,7 @@ export default function Logo({ locale, variant = 'dark', size = 'md' }: LogoProp
         </text>
         {/* ORA */}
         <text
-          x="54"
+          x="56"
           y="44"
           fontFamily="var(--font-playfair), 'Oswald', Georgia, serif"
           fontSize="18"
